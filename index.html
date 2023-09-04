@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .button { 
-          margin-bottom: 5px;
-          font-size: large;
-          margin-left: 5px;
-        }
-      </style>
+    <title>Bullshit | MarkoW</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="png/favicon.ico">
 </head>
+<!--tasks
+make icon page
+make clear button-->
 <body>
     
     <h1>Список дел</h1>
-    
     
     <form>
     <input type="text" placeholder="Новый элемент списка">
     <button type="button">Создать</button>
     
-    <div class=".button">
+    <div>
         <ol>
-            <br><li><input type="checkbox"><b style="margin-left: 3px;">Почесать кошку</b><button type="button" style="margin-left: 5px;">&#10060;</button></li>
-            <li style="margin-bottom: 5px; font-size: large;"><input type="checkbox"><b style="margin-left: 3px;">Полить картошку</b><button type="button" style="margin-left: 5px;">&#10060;</button></li>
-            <li style="margin-bottom: 5px; font-size: large;"><input type="checkbox"><b style="margin-left: 3px;">Сложить в лукошко</b><button type="button" style="margin-left: 5px;">&#10060;</button></li>
+            <div>
+            <br><li class="button"><input type="checkbox"><b>Почесать кошку</b><button type="button" style="margin-left: 3px;">&#10060;</button></li>
+            <li class="button"><input type="checkbox"><b style="margin-left: 3px;">Полить картошку</b><button type="button" style="margin-left: 5px;">&#10060;</button></li>
+            <li class="button"><input type="checkbox"><b style="margin-left: 3px;">Сложить в лукошко</b><button type="button" style="margin-left: 5px;">&#10060;</button></li>
+            <button style="font-size: large;">Очистить</button>
+            </div>
         </ol>
     </div>
     </form>
